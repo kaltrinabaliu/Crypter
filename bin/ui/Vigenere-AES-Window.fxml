@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polyline?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="550.0" style="-fx-border-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="wordKeyVigenere_AES" layoutX="275.0" layoutY="87.0" prefHeight="38.0" prefWidth="185.0" />
+      <ImageView fitHeight="47.0" fitWidth="200.0" layoutX="45.0" layoutY="82.0">
+         <image>
+            <Image url="@../images/wordKey.png" />
+         </image>
+      </ImageView>
+      <Polyline fx:id="fUp" fill="CHARTREUSE" layoutX="70.0" layoutY="54.0" points="-50.0, -40.0, 5.0, -11.0, -50.0, 24.0, -50.0, -40.0" strokeType="INSIDE" />
+      <Polyline fx:id="fDown" fill="CHARTREUSE" layoutX="524.0" layoutY="172.0" points="8.0, -41.0, 8.0, 24.0, -43.0, -8.0, 8.0, -41.0" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
